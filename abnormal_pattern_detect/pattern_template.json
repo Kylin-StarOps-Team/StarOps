@@ -1,0 +1,188 @@
+{
+  "template_version": "1.0",
+  "description": "异常模式检测模板结构",
+  "pattern_types": {
+    "resource_anomaly": {
+      "description": "系统资源异常模式",
+      "structure": {
+        "pattern_id": "string",
+        "pattern_name": "string", 
+        "service": "string",
+        "timestamp": "string",
+        "severity": "low|medium|high|critical",
+        "metrics": {
+          "cpu": {
+            "threshold": "number",
+            "mean": "number",
+            "std": "number",
+            "samples": "number"
+          },
+          "memory": {
+            "threshold": "number", 
+            "mean": "number",
+            "std": "number",
+            "samples": "number"
+          },
+          "disk": {
+            "threshold": "number",
+            "mean": "number", 
+            "std": "number",
+            "samples": "number"
+          },
+          "network": {
+            "connections": "number",
+            "traffic_in": "number",
+            "traffic_out": "number"
+          }
+        },
+        "logs": {
+          "keywords": ["string"],
+          "patterns": ["string"],
+          "frequency": "number",
+          "error_rate": "number"
+        },
+        "conditions": {
+          "logical_operator": "and|or",
+          "rules": [
+            {
+              "metric": "string",
+              "operator": ">|<|>=|<=|==|!=",
+              "value": "number|string",
+              "weight": "number"
+            }
+          ]
+        }
+      }
+    },
+    "service_anomaly": {
+      "description": "服务异常模式",
+      "structure": {
+        "pattern_id": "string",
+        "pattern_name": "string",
+        "service_name": "string",
+        "service_type": "mysql|nginx|redis|postgresql|apache",
+        "timestamp": "string", 
+        "severity": "low|medium|high|critical",
+        "process_metrics": {
+          "pid": "number",
+          "cpu_percent": "number",
+          "memory_percent": "number",
+          "status": "string",
+          "connections": "number"
+        },
+        "service_logs": {
+          "log_file": "string",
+          "error_keywords": ["string"],
+          "warning_keywords": ["string"],
+          "error_count": "number",
+          "last_errors": ["string"]
+        },
+        "response_metrics": {
+          "response_time": "number",
+          "error_rate": "number",
+          "success_rate": "number",
+          "request_count": "number"
+        }
+      }
+    }
+  },
+  "scanner_template": {
+    "description": "生成的扫描器模板结构",
+    "structure": {
+      "scanner_name": "string",
+      "target_service": "string",
+      "check_interval": "number",
+      "detection_rules": [
+        {
+          "rule_name": "string",
+          "condition": "string",
+          "action": "string",
+          "priority": "number"
+        }
+      ],
+      "notification": {
+        "enabled": "boolean",
+        "methods": ["email", "log", "console"],
+        "template": "string"
+      }
+    }
+  },
+  "examples": {
+    "mysql_memory_leak": {
+      "pattern_id": "mysql_001",
+      "pattern_name": "MySQL内存泄漏检测",
+      "service": "mysql",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "severity": "high",
+      "metrics": {
+        "memory": {
+          "threshold": 80.0,
+          "mean": 85.2,
+          "std": 4.3,
+          "samples": 100
+        }
+      },
+      "logs": {
+        "keywords": ["Out of memory", "InnoDB"],
+        "patterns": [".*Out of memory.*", ".*InnoDB.*memory.*"],
+        "frequency": 15,
+        "error_rate": 0.25
+      },
+      "conditions": {
+        "logical_operator": "and",
+        "rules": [
+          {
+            "metric": "memory_percent",
+            "operator": ">",
+            "value": 80,
+            "weight": 0.7
+          },
+          {
+            "metric": "log_keywords",
+            "operator": "contains",
+            "value": "Out of memory",
+            "weight": 0.3
+          }
+        ]
+      }
+    },
+    "nginx_502_error": {
+      "pattern_id": "nginx_001", 
+      "pattern_name": "Nginx 502错误检测",
+      "service": "nginx",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "severity": "medium",
+      "metrics": {
+        "cpu": {
+          "threshold": 90.0,
+          "mean": 92.5,
+          "std": 2.1,
+          "samples": 50
+        }
+      },
+      "logs": {
+        "keywords": ["502", "upstream timeout", "connect() failed"],
+        "patterns": [".*502.*", ".*upstream timeout.*"],
+        "frequency": 25,
+        "error_rate": 0.15
+      },
+      "conditions": {
+        "logical_operator": "or",
+        "rules": [
+          {
+            "metric": "error_rate_502",
+            "operator": ">",
+            "value": 0.15,
+            "weight": 0.8
+          },
+          {
+            "metric": "cpu_percent",
+            "operator": ">",
+            "value": 90,
+            "weight": 0.2
+          }
+        ]
+      }
+    }
+  }
+} 

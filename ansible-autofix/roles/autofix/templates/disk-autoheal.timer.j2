@@ -1,0 +1,10 @@
+[Unit]
+Description=Disk Auto-Heal Every 5 Minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=timers.target
+

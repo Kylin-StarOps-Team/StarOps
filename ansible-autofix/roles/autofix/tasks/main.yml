@@ -1,0 +1,23 @@
+---
+- name: Create SRE autofix directory
+  file:
+    path: /usr/local/sre-autofix
+    state: directory
+    mode: "0755"
+
+- name: Copy auto-heal scripts
+  copy:
+    src: "{{ item }}"
+    dest: /usr/local/sre-autofix/
+    mode: "0755"
+  loop:
+    - disk_autoheal.sh
+    - deadlock_autoheal.sh
+    - memory_autoheal.sh
+    - cpu_autoheal.sh
+    - network_autoheal.sh
+    - system_autoheal.sh
+
+- name: Include systemd definition tasks
+  import_tasks: systemd.yml
+

@@ -1,0 +1,167 @@
+{
+  "parse_time": "2025-08-13T02:09:26.143147",
+  "global_summary": {
+    "total_files": 21,
+    "total_lines": 11482,
+    "total_errors": 595,
+    "total_warnings": 84,
+    "total_criticals": 9,
+    "top_error_keywords": [
+      {
+        "keyword": "exceeded",
+        "count": 321
+      },
+      {
+        "keyword": "localhost",
+        "count": 311
+      },
+      {
+        "keyword": "systemd[1]:",
+        "count": 220
+      },
+      {
+        "keyword": "\\\"https://stats.grafana.org/loki-usage-report\\\":",
+        "count": 201
+      },
+      {
+        "keyword": "while",
+        "count": 168
+      },
+      {
+        "keyword": "context",
+        "count": 165
+      },
+      {
+        "keyword": "deadline",
+        "count": 165
+      },
+      {
+        "keyword": "failed",
+        "count": 164
+      },
+      {
+        "keyword": "(client.timeout",
+        "count": 157
+      },
+      {
+        "keyword": "awaiting",
+        "count": 157
+      },
+      {
+        "keyword": "error:",
+        "count": 156
+      },
+      {
+        "keyword": "level=info",
+        "count": 142
+      },
+      {
+        "keyword": "post",
+        "count": 127
+      },
+      {
+        "keyword": "msg=\"failed",
+        "count": 121
+      },
+      {
+        "keyword": "caller=reporter.go:305",
+        "count": 101
+      },
+      {
+        "keyword": "send",
+        "count": 101
+      },
+      {
+        "keyword": "usage",
+        "count": 101
+      },
+      {
+        "keyword": "report\"",
+        "count": 101
+      },
+      {
+        "keyword": "err=\"post",
+        "count": 101
+      },
+      {
+        "keyword": "dial",
+        "count": 95
+      }
+    ],
+    "services_found": [
+      "nginx",
+      "mysql",
+      "blackbox",
+      "loki",
+      "system",
+      "node_exporter",
+      "promptail"
+    ]
+  },
+  "services_summary": {
+    "nginx": {
+      "total_lines": 0,
+      "by_level": {},
+      "files_count": 2,
+      "recent_errors_count": 0
+    },
+    "mysql": {
+      "total_lines": 996,
+      "by_level": {
+        "info": 864,
+        "warning": 83,
+        "error": 49
+      },
+      "files_count": 2,
+      "recent_errors_count": 49
+    },
+    "blackbox": {
+      "total_lines": 18,
+      "by_level": {
+        "info": 18
+      },
+      "files_count": 1,
+      "recent_errors_count": 0
+    },
+    "loki": {
+      "total_lines": 1000,
+      "by_level": {
+        "error": 137,
+        "info": 861,
+        "critical": 2
+      },
+      "files_count": 1,
+      "recent_errors_count": 50
+    },
+    "system": {
+      "total_lines": 9000,
+      "by_level": {
+        "info": 8689,
+        "error": 305,
+        "critical": 6
+      },
+      "files_count": 13,
+      "recent_errors_count": 50
+    },
+    "node_exporter": {
+      "total_lines": 358,
+      "by_level": {
+        "info": 269,
+        "error": 88,
+        "critical": 1
+      },
+      "files_count": 1,
+      "recent_errors_count": 50
+    },
+    "promptail": {
+      "total_lines": 110,
+      "by_level": {
+        "info": 93,
+        "error": 16,
+        "warning": 1
+      },
+      "files_count": 1,
+      "recent_errors_count": 16
+    }
+  }
+}

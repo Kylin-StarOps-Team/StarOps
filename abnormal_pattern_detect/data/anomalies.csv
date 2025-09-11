@@ -1,0 +1,8 @@
+timestamp,type,service,severity,cpu_percent,memory_percent,description
+2025-08-13T00:12:34.182076,process,mysqld,medium,0.0,0.8553612561255854,Process anomaly detected for mysqld
+2025-08-13T00:12:34.233566,process,python3,medium,0.0,0.554057380300619,Process anomaly detected for python3
+2025-08-13T02:09:26.143147,log,mysql,high,0.0,0.0,"Log anomaly: 49 errors, 0 critical"
+2025-08-13T02:09:26.143147,log,loki,critical,0.0,0.0,"Log anomaly: 137 errors, 2 critical"
+2025-08-13T02:09:26.143147,log,system,critical,0.0,0.0,"Log anomaly: 305 errors, 6 critical"
+2025-08-13T02:09:26.143147,log,node_exporter,critical,0.0,0.0,"Log anomaly: 88 errors, 1 critical"
+2025-08-13T02:09:26.143147,log,promptail,high,0.0,0.0,"Log anomaly: 16 errors, 0 critical"

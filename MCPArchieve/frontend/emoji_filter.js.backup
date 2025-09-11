@@ -1,0 +1,171 @@
+/**
+ * Emoji和特殊字符过滤工具
+ * 适用于银河麒麟等不完全支持Unicode表情的系统
+ */
+
+class EmojiFilter {
+    constructor() {
+        // 常见emoji到文本的映射
+        this.emojiMap = {
+            // 系统状态相关
+            '🤖': '[AI系统]',
+            '🔍': '[查询]',
+            '✅': '[成功]',
+            '⚠️': '[警告]',
+            '❌': '[错误]',
+            '⏰': '[超时]',
+            '🌐': '[网络]',
+            '📊': '[数据分析]',
+            '🚀': '[启动]',
+            '🎯': '[目标]',
+            '🎉': '[完成]',
+            '💡': '[提示]',
+            '🔧': '[修复]',
+            '📝': '[记录]',
+            '📋': '[清单]',
+            '🔄': '[处理]',
+            
+            // 技术相关
+            '📚': '[知识库]',
+            '🧠': '[AI]',
+            '⚡': '[快速]',
+            '💻': '[系统]',
+            '🖥️': '[控制台]',
+            '📈': '[监控]',
+            '🔐': '[安全]',
+            '🏠': '[主页]',
+            '⭐': '[重要]',
+            '🎨': '[界面]',
+            '🧪': '[测试]',
+            
+            // 状态指示
+            '➤': '>',
+            '→': '->',
+            '←': '<-',
+            '↑': '^',
+            '↓': 'v',
+            '✓': '[√]',
+            '✗': '[×]',
+            '●': '•',
+            '○': '◦',
+            '■': '▪',
+            '□': '▫',
+            
+            // 特殊符号
+            '…': '...',
+            '\u201C': '"',
+            '\u201D': '"',
+            '\u2018': "'",
+            '\u2019': "'",
+            '\u2014': '-',
+            '\u2013': '-',
+            '•': '*',
+            '★': '*',
+            '☆': '*',
+            '♦': '*',
+            '♠': '*',
+            '♣': '*',
+            '♥': '*'
+        };
+    }
+    
+    /**
+     * 过滤字符串中的emoji和特殊Unicode字符
+     * @param {string} text - 需要过滤的文本
+     * @return {string} - 过滤后的文本
+     */
+    filterEmojis(text) {
+        if (!text || typeof text !== 'string') {
+            return text;
+        }
+        
+        let filteredText = text;
+        
+        // 1. 替换已知的emoji映射
+        for (const [emoji, replacement] of Object.entries(this.emojiMap)) {
+            filteredText = filteredText.replace(new RegExp(emoji, 'g'), replacement);
+        }
+        
+        // 2. 移除所有emoji（Unicode范围）
+        // 移除表情符号和象形文字
+        filteredText = filteredText.replace(/[\u{1F600}-\u{1F64F}]/gu, ''); // 表情符号
+        filteredText = filteredText.replace(/[\u{1F300}-\u{1F5FF}]/gu, ''); // 杂项符号和象形文字
+        filteredText = filteredText.replace(/[\u{1F680}-\u{1F6FF}]/gu, ''); // 交通和地图符号
+        filteredText = filteredText.replace(/[\u{1F1E0}-\u{1F1FF}]/gu, ''); // 国旗
+        filteredText = filteredText.replace(/[\u{2600}-\u{26FF}]/gu, '');   // 杂项符号
+        filteredText = filteredText.replace(/[\u{2700}-\u{27BF}]/gu, '');   // 装饰符号
+        filteredText = filteredText.replace(/[\u{1F900}-\u{1F9FF}]/gu, ''); // 补充符号和象形文字
+        filteredText = filteredText.replace(/[\u{1FA00}-\u{1FA6F}]/gu, ''); // 扩展的象形文字A
+        filteredText = filteredText.replace(/[\u{1FA70}-\u{1FAFF}]/gu, ''); // 扩展的象形文字B
+        
+        // 3. 移除其他可能有问题的Unicode字符
+        // 移除零宽字符
+        filteredText = filteredText.replace(/[\u200B-\u200F\uFEFF]/g, '');
+        // 移除组合字符标记
+        filteredText = filteredText.replace(/[\u0300-\u036F]/g, '');
+        
+        // 4. 清理多余的空格
+        filteredText = filteredText.replace(/\s+/g, ' ').trim();
+        
+        return filteredText;
+    }
+    
+    /**
+     * 批量过滤对象中的所有字符串值
+     * @param {Object|Array} obj - 需要过滤的对象或数组
+     * @return {Object|Array} - 过滤后的对象或数组
+     */
+    filterObject(obj) {
+        if (!obj) return obj;
+        
+        if (typeof obj === 'string') {
+            return this.filterEmojis(obj);
+        }
+        
+        if (Array.isArray(obj)) {
+            return obj.map(item => this.filterObject(item));
+        }
+        
+        if (typeof obj === 'object') {
+            const filtered = {};
+            for (const [key, value] of Object.entries(obj)) {
+                const filteredKey = this.filterEmojis(key);
+                filtered[filteredKey] = this.filterObject(value);
+            }
+            return filtered;
+        }
+        
+        return obj;
+    }
+    
+    /**
+     * 检查字符串是否包含可能有问题的字符
+     * @param {string} text - 需要检查的文本
+     * @return {boolean} - 是否包含问题字符
+     */
+    hasProblematicChars(text) {
+        if (!text || typeof text !== 'string') {
+            return false;
+        }
+        
+        // 检查是否包含emoji或特殊Unicode字符
+        const problematicPatterns = [
+            /[\u{1F600}-\u{1F64F}]/u, // 表情符号
+            /[\u{1F300}-\u{1F5FF}]/u, // 杂项符号和象形文字
+            /[\u{1F680}-\u{1F6FF}]/u, // 交通和地图符号
+            /[\u{1F1E0}-\u{1F1FF}]/u, // 国旗
+            /[\u{2600}-\u{26FF}]/u,   // 杂项符号
+            /[\u{2700}-\u{27BF}]/u,   // 装饰符号
+            /[\u{1F900}-\u{1F9FF}]/u, // 补充符号和象形文字
+        ];
+        
+        return problematicPatterns.some(pattern => pattern.test(text));
+    }
+}
+
+// 创建全局实例
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = EmojiFilter;
+} else if (typeof window !== 'undefined') {
+    window.EmojiFilter = EmojiFilter;
+}

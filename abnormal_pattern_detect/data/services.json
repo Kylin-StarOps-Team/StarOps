@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-13T02:09:25.879044",
+  "services": {
+    "mysqld": [
+      {
+        "pid": 1502,
+        "name": "mysqld",
+        "status": "sleeping",
+        "cpu_percent": 0.0,
+        "memory_percent": 1.6035222157465636,
+        "create_time": 1755021365.06
+      }
+    ],
+    "mysql": [
+      {
+        "pid": 1502,
+        "name": "mysqld",
+        "status": "sleeping",
+        "cpu_percent": 0.0,
+        "memory_percent": 1.6035222157465636,
+        "create_time": 1755021365.06
+      }
+    ],
+    "python": [
+      {
+        "pid": 8198,
+        "name": "python3",
+        "status": "running",
+        "cpu_percent": 0.0,
+        "memory_percent": 1.968227232551067,
+        "create_time": 1755022150.76
+      }
+    ]
+  }
+}

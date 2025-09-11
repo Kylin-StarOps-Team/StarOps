@@ -1,0 +1,37 @@
+---
+- name: Install unit files from templates
+  template:
+    src: "{{ item.src }}"
+    dest: "/etc/systemd/system/{{ item.dest }}"
+    mode: "0644"
+  loop:
+    - { src: 'disk-autoheal.service.j2',   dest: 'disk-autoheal.service' }
+    - { src: 'disk-autoheal.timer.j2',     dest: 'disk-autoheal.timer'   }
+    - { src: 'deadlock-autoheal.service.j2', dest: 'deadlock-autoheal.service' }
+    - { src: 'deadlock-autoheal.timer.j2',   dest: 'deadlock-autoheal.timer'   }
+    - { src: 'memory_autoheal.service.j2', dest: 'memory_autoheal.service' }
+    - { src: 'memory_autoheal.timer.j2',   dest: 'memory_autoheal.timer'   }
+    - { src: 'cpu_autoheal.service.j2',    dest: 'cpu_autoheal.service' }
+    - { src: 'cpu_autoheal.timer.j2',      dest: 'cpu_autoheal.timer'   }
+    - { src: 'network_autoheal.service.j2', dest: 'network_autoheal.service' }
+    - { src: 'network_autoheal.timer.j2',   dest: 'network_autoheal.timer'   }
+    - { src: 'system_autoheal.service.j2', dest: 'system_autoheal.service' }
+    - { src: 'system_autoheal.timer.j2',   dest: 'system_autoheal.timer'   }
+
+- name: Reload systemd daemon
+  systemd:
+    daemon_reload: yes
+
+- name: Enable & start timers
+  systemd:
+    name: "{{ item }}"
+    enabled: yes
+    state: started
+  loop:
+    - disk-autoheal.timer
+    - deadlock-autoheal.timer
+    - memory_autoheal.timer
+    - cpu_autoheal.timer
+    - network_autoheal.timer
+    - system_autoheal.timer
+

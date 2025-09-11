@@ -1,0 +1,42 @@
+# SkyWalking配置
+skywalking:
+  base_url: "http://1.92.124.5:8080"  # SkyWalking OAP服务地址
+  graphql_endpoint: "/graphql"
+  timeout: 30
+
+# DeepSeek配置
+ollama:
+  base_url: "https://api.deepseek.com/v1/chat/completions"
+  model: "deepseek-chat"  # 使用的模型名称
+  timeout: 600
+
+# 异常检测配置
+anomaly_detection:
+  # 响应时间阈值(毫秒)
+  response_time_threshold: 1000
+  # 错误率阈值(百分比)
+  error_rate_threshold: 5.0
+  # 吞吐量下降阈值(百分比)
+  throughput_drop_threshold: 30.0
+  # 检测窗口大小(分钟)
+  time_window: 2
+  # 异常检测算法
+  algorithms:
+    - "statistical"
+    - "isolation_forest"
+    - "z_score"
+
+# 根因分析配置
+root_cause_analysis:
+  # 最大分析深度
+  max_depth: 5
+  # 关联性阈值
+  correlation_threshold: 0.7
+  # 时间关联窗口(分钟)
+  time_correlation_window: 5
+
+# 输出配置
+output:
+  results_dir: "./results"
+  log_level: "INFO"
+  save_raw_data: true

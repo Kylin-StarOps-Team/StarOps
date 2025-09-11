@@ -1,0 +1,135 @@
+{
+  "detection_time": "2025-08-13T02:09:27.778881",
+  "time_window_hours": 24,
+  "system_anomalies": {
+    "anomalies": [],
+    "summary": {
+      "total": 0,
+      "by_model": {
+        "isolation_forest": 1,
+        "lof": 1,
+        "knn": 0
+      }
+    }
+  },
+  "process_anomalies": {
+    "anomalies": [
+      {
+        "timestamp": "2025-08-13T00:12:34.182076",
+        "type": "process",
+        "service": "mysqld",
+        "pid": 1493,
+        "anomaly_index": 1,
+        "metrics": {
+          "cpu_percent": 0.0,
+          "memory_percent": 0.8553612561255854,
+          "memory_rss": 103337984,
+          "connections": 1
+        },
+        "anomaly_score": 0.08911216655263088,
+        "severity": "medium"
+      },
+      {
+        "timestamp": "2025-08-13T00:12:34.233566",
+        "type": "process",
+        "service": "python3",
+        "pid": 20160,
+        "anomaly_index": 2,
+        "metrics": {
+          "cpu_percent": 0.0,
+          "memory_percent": 0.554057380300619,
+          "memory_rss": 66936832,
+          "connections": 3
+        },
+        "anomaly_score": 0.09228453512330714,
+        "severity": "medium"
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "by_service": {
+        "mysqld": 1,
+        "python3": 1
+      }
+    }
+  },
+  "log_anomalies": {
+    "anomalies": [
+      {
+        "timestamp": "2025-08-13T02:09:26.143147",
+        "type": "log",
+        "service": "mysql",
+        "metrics": {
+          "error_count": 49,
+          "critical_count": 0,
+          "total_anomalies": 49
+        },
+        "severity": "high"
+      },
+      {
+        "timestamp": "2025-08-13T02:09:26.143147",
+        "type": "log",
+        "service": "loki",
+        "metrics": {
+          "error_count": 137,
+          "critical_count": 2,
+          "total_anomalies": 139
+        },
+        "severity": "critical"
+      },
+      {
+        "timestamp": "2025-08-13T02:09:26.143147",
+        "type": "log",
+        "service": "system",
+        "metrics": {
+          "error_count": 305,
+          "critical_count": 6,
+          "total_anomalies": 311
+        },
+        "severity": "critical"
+      },
+      {
+        "timestamp": "2025-08-13T02:09:26.143147",
+        "type": "log",
+        "service": "node_exporter",
+        "metrics": {
+          "error_count": 88,
+          "critical_count": 1,
+          "total_anomalies": 89
+        },
+        "severity": "critical"
+      },
+      {
+        "timestamp": "2025-08-13T02:09:26.143147",
+        "type": "log",
+        "service": "promptail",
+        "metrics": {
+          "error_count": 16,
+          "critical_count": 0,
+          "total_anomalies": 16
+        },
+        "severity": "high"
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "by_service": {
+        "nginx": 0,
+        "mysql": 49,
+        "blackbox": 0,
+        "loki": 139,
+        "system": 311,
+        "node_exporter": 89,
+        "promptail": 16
+      }
+    }
+  },
+  "summary": {
+    "total_anomalies": 7,
+    "by_type": {
+      "system": 0,
+      "process": 2,
+      "log": 5
+    }
+  }
+}

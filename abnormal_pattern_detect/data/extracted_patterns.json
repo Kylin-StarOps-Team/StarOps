@@ -1,0 +1,3206 @@
+{
+  "extraction_time": "2025-08-13T02:09:27.841378",
+  "metric_patterns": [
+    {
+      "cpu_statistics": {
+        "mean": 80.4,
+        "std": 18.1,
+        "min": 62.3,
+        "max": 98.5,
+        "median": 80.4,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 47.3,
+        "std": 9.8,
+        "min": 37.5,
+        "max": 57.1,
+        "median": 47.3,
+        "samples": 2
+      },
+      "disk_usage_statistics": {
+        "mean": 29.8,
+        "std": 0.1999999999999993,
+        "min": 29.6,
+        "max": 30.0,
+        "median": 29.8,
+        "samples": 2
+      },
+      "network_connections_statistics": {
+        "mean": 33.5,
+        "std": 0.5,
+        "min": 33.0,
+        "max": 34.0,
+        "median": 33.5,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 0.8185792891666667,
+        "avg_interval_minutes": 49.11475735,
+        "hour_distribution": {
+          "16": 2
+        },
+        "peak_hours": [
+          16
+        ]
+      },
+      "severity_distribution": {
+        "low": 2
+      },
+      "pattern_id": "system_metrics_20250807_172757",
+      "pattern_type": "metric_anomaly",
+      "service": "system",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T17:27:57.247683"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 1.5601240748883964,
+        "std": 0.03146286381902874,
+        "min": 1.5286612110693678,
+        "max": 1.5915869387074253,
+        "median": 1.5601240748883964,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 1.9471537261111111,
+        "avg_interval_minutes": 116.82922356666667,
+        "hour_distribution": {
+          "15": 1,
+          "17": 1
+        },
+        "peak_hours": [
+          15,
+          17
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "mysqld_metrics_20250807_172757",
+      "pattern_type": "metric_anomaly",
+      "service": "mysqld",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T17:27:57.269193"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 0.019155646236915652,
+        "std": 0.00518728119335945,
+        "min": 0.0139683650435562,
+        "max": 0.0243429274302751,
+        "median": 0.019155646236915652,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 1.7613920908333331,
+        "avg_interval_minutes": 105.68352544999999,
+        "hour_distribution": {
+          "22": 1,
+          "0": 1
+        },
+        "peak_hours": [
+          22,
+          0
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "nginx_metrics_20250807_172757",
+      "pattern_type": "metric_anomaly",
+      "service": "nginx",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T17:27:57.281973"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 24.633333333333336,
+        "std": 34.836794086457246,
+        "min": 0.0,
+        "max": 73.9,
+        "median": 0.0,
+        "samples": 3
+      },
+      "memory_statistics": {
+        "mean": 1.2874229022941808,
+        "std": 0.7129792761414548,
+        "min": 0.2837408908968978,
+        "max": 1.872786284089996,
+        "median": 1.705741531895648,
+        "samples": 3
+      },
+      "temporal_features": {
+        "time_span_hours": 15.67096366,
+        "avg_interval_minutes": 470.1289098,
+        "hour_distribution": {
+          "0": 1,
+          "16": 2
+        },
+        "peak_hours": [
+          16,
+          0
+        ]
+      },
+      "severity_distribution": {
+        "medium": 3
+      },
+      "pattern_id": "python3_metrics_20250807_172757",
+      "pattern_type": "metric_anomaly",
+      "service": "python3",
+      "sample_count": 3,
+      "extraction_time": "2025-08-07T17:27:57.302975"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 80.4,
+        "std": 18.1,
+        "min": 62.3,
+        "max": 98.5,
+        "median": 80.4,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 47.3,
+        "std": 9.8,
+        "min": 37.5,
+        "max": 57.1,
+        "median": 47.3,
+        "samples": 2
+      },
+      "disk_usage_statistics": {
+        "mean": 29.8,
+        "std": 0.1999999999999993,
+        "min": 29.6,
+        "max": 30.0,
+        "median": 29.8,
+        "samples": 2
+      },
+      "network_connections_statistics": {
+        "mean": 33.5,
+        "std": 0.5,
+        "min": 33.0,
+        "max": 34.0,
+        "median": 33.5,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 0.8185792891666667,
+        "avg_interval_minutes": 49.11475735,
+        "hour_distribution": {
+          "16": 2
+        },
+        "peak_hours": [
+          16
+        ]
+      },
+      "severity_distribution": {
+        "low": 2
+      },
+      "pattern_id": "system_metrics_20250807_222542",
+      "pattern_type": "metric_anomaly",
+      "service": "system",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:25:42.287319"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 1.4787545994943563,
+        "std": 0.1128323392130689,
+        "min": 1.3659222602812875,
+        "max": 1.5915869387074253,
+        "median": 1.4787545994943563,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 6.912085613611111,
+        "avg_interval_minutes": 414.72513681666663,
+        "hour_distribution": {
+          "15": 1,
+          "22": 1
+        },
+        "peak_hours": [
+          15,
+          22
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "mysqld_metrics_20250807_222542",
+      "pattern_type": "metric_anomaly",
+      "service": "mysqld",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:25:42.290678"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 0.019155646236915652,
+        "std": 0.00518728119335945,
+        "min": 0.0139683650435562,
+        "max": 0.0243429274302751,
+        "median": 0.019155646236915652,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 1.7613920908333331,
+        "avg_interval_minutes": 105.68352544999999,
+        "hour_distribution": {
+          "22": 1,
+          "0": 1
+        },
+        "peak_hours": [
+          22,
+          0
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "nginx_metrics_20250807_222542",
+      "pattern_type": "metric_anomaly",
+      "service": "nginx",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:25:42.294081"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 24.633333333333336,
+        "std": 34.836794086457246,
+        "min": 0.0,
+        "max": 73.9,
+        "median": 0.0,
+        "samples": 3
+      },
+      "memory_statistics": {
+        "mean": 1.4142466876125257,
+        "std": 0.534720945325197,
+        "min": 0.6642122468519337,
+        "max": 1.872786284089996,
+        "median": 1.705741531895648,
+        "samples": 3
+      },
+      "temporal_features": {
+        "time_span_hours": 6.239788143333333,
+        "avg_interval_minutes": 187.19364430000002,
+        "hour_distribution": {
+          "16": 2,
+          "22": 1
+        },
+        "peak_hours": [
+          16,
+          22
+        ]
+      },
+      "severity_distribution": {
+        "medium": 3
+      },
+      "pattern_id": "python3_metrics_20250807_222542",
+      "pattern_type": "metric_anomaly",
+      "service": "python3",
+      "sample_count": 3,
+      "extraction_time": "2025-08-07T22:25:42.297930"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 80.4,
+        "std": 18.1,
+        "min": 62.3,
+        "max": 98.5,
+        "median": 80.4,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 47.3,
+        "std": 9.8,
+        "min": 37.5,
+        "max": 57.1,
+        "median": 47.3,
+        "samples": 2
+      },
+      "disk_usage_statistics": {
+        "mean": 29.8,
+        "std": 0.1999999999999993,
+        "min": 29.6,
+        "max": 30.0,
+        "median": 29.8,
+        "samples": 2
+      },
+      "network_connections_statistics": {
+        "mean": 33.5,
+        "std": 0.5,
+        "min": 33.0,
+        "max": 34.0,
+        "median": 33.5,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 0.8185792891666667,
+        "avg_interval_minutes": 49.11475735,
+        "hour_distribution": {
+          "16": 2
+        },
+        "peak_hours": [
+          16
+        ]
+      },
+      "severity_distribution": {
+        "low": 2
+      },
+      "pattern_id": "system_metrics_20250807_222819",
+      "pattern_type": "metric_anomaly",
+      "service": "system",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:28:19.875988"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 1.4787545994943563,
+        "std": 0.1128323392130689,
+        "min": 1.3659222602812875,
+        "max": 1.5915869387074253,
+        "median": 1.4787545994943563,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 6.912085613611111,
+        "avg_interval_minutes": 414.72513681666663,
+        "hour_distribution": {
+          "15": 1,
+          "22": 1
+        },
+        "peak_hours": [
+          15,
+          22
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "mysqld_metrics_20250807_222819",
+      "pattern_type": "metric_anomaly",
+      "service": "mysqld",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:28:19.879166"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 0.019155646236915652,
+        "std": 0.00518728119335945,
+        "min": 0.0139683650435562,
+        "max": 0.0243429274302751,
+        "median": 0.019155646236915652,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 1.7613920908333331,
+        "avg_interval_minutes": 105.68352544999999,
+        "hour_distribution": {
+          "22": 1,
+          "0": 1
+        },
+        "peak_hours": [
+          22,
+          0
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "nginx_metrics_20250807_222819",
+      "pattern_type": "metric_anomaly",
+      "service": "nginx",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:28:19.883393"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 18.475,
+        "std": 31.999638669835008,
+        "min": 0.0,
+        "max": 73.9,
+        "median": 0.0,
+        "samples": 4
+      },
+      "memory_statistics": {
+        "mean": 1.1305776920301327,
+        "std": 0.6745782727776776,
+        "min": 0.2837408908968978,
+        "max": 1.872786284089996,
+        "median": 1.1828917965668184,
+        "samples": 4
+      },
+      "temporal_features": {
+        "time_span_hours": 16.77891501222222,
+        "avg_interval_minutes": 335.5783002444444,
+        "hour_distribution": {
+          "0": 1,
+          "16": 2,
+          "17": 1
+        },
+        "peak_hours": [
+          16,
+          0,
+          17
+        ]
+      },
+      "severity_distribution": {
+        "medium": 4
+      },
+      "pattern_id": "python3_metrics_20250807_222819",
+      "pattern_type": "metric_anomaly",
+      "service": "python3",
+      "sample_count": 4,
+      "extraction_time": "2025-08-07T22:28:19.888888"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 80.4,
+        "std": 18.1,
+        "min": 62.3,
+        "max": 98.5,
+        "median": 80.4,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 47.3,
+        "std": 9.8,
+        "min": 37.5,
+        "max": 57.1,
+        "median": 47.3,
+        "samples": 2
+      },
+      "disk_usage_statistics": {
+        "mean": 29.8,
+        "std": 0.1999999999999993,
+        "min": 29.6,
+        "max": 30.0,
+        "median": 29.8,
+        "samples": 2
+      },
+      "network_connections_statistics": {
+        "mean": 33.5,
+        "std": 0.5,
+        "min": 33.0,
+        "max": 34.0,
+        "median": 33.5,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 0.8185792891666667,
+        "avg_interval_minutes": 49.11475735,
+        "hour_distribution": {
+          "16": 2
+        },
+        "peak_hours": [
+          16
+        ]
+      },
+      "severity_distribution": {
+        "low": 2
+      },
+      "pattern_id": "system_metrics_20250807_225752",
+      "pattern_type": "metric_anomaly",
+      "service": "system",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:57:52.827441"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0,
+        "samples": 2
+      },
+      "memory_statistics": {
+        "mean": 1.4787545994943563,
+        "std": 0.1128323392130689,
+        "min": 1.3659222602812875,
+        "max": 1.5915869387074253,
+        "median": 1.4787545994943563,
+        "samples": 2
+      },
+      "temporal_features": {
+        "time_span_hours": 6.912085613611111,
+        "avg_interval_minutes": 414.72513681666663,
+        "hour_distribution": {
+          "15": 1,
+          "22": 1
+        },
+        "peak_hours": [
+          15,
+          22
+        ]
+      },
+      "severity_distribution": {
+        "medium": 2
+      },
+      "pattern_id": "mysqld_metrics_20250807_225752",
+      "pattern_type": "metric_anomaly",
+      "service": "mysqld",
+      "sample_count": 2,
+      "extraction_time": "2025-08-07T22:57:52.856377"
+    },
+    {
+      "cpu_statistics": {
+        "mean": 18.475,
+        "std": 31.999638669835008,
+        "min": 0.0,
+        "max": 73.9,
+        "median": 0.0,
+        "samples": 4
+      },
+      "memory_statistics": {
+        "mean": 1.1305776920301327,
+        "std": 0.6745782727776776,
+        "min": 0.2837408908968978,
+        "max": 1.872786284089996,
+        "median": 1.1828917965668184,
+        "samples": 4
+      },
+      "temporal_features": {
+        "time_span_hours": 16.77891501222222,
+        "avg_interval_minutes": 335.5783002444444,
+        "hour_distribution": {
+          "0": 1,
+          "16": 2,
+          "17": 1
+        },
+        "peak_hours": [
+          16,
+          0,
+          17
+        ]
+      },
+      "severity_distribution": {
+        "medium": 4
+      },
+      "pattern_id": "python3_metrics_20250807_225752",
+      "pattern_type": "metric_anomaly",
+      "service": "python3",
+      "sample_count": 4,
+      "extraction_time": "2025-08-07T22:57:52.866870"
+    }
+  ],
+  "log_patterns": [
+    {
+      "total_errors": 2,
+      "error_frequency": 2,
+      "top_keywords": [
+        {
+          "keyword": "26650037",
+          "count": 2
+        },
+        {
+          "keyword": "500",
+          "count": 2
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.02,
+      "pattern_id": "mysql_log_20250807_172757",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 2,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T17:27:57.668972"
+    },
+    {
+      "total_errors": 287,
+      "error_frequency": 287,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 287
+        },
+        {
+          "keyword": "failed",
+          "count": 253
+        },
+        {
+          "keyword": "305",
+          "count": 211
+        },
+        {
+          "keyword": "timeout",
+          "count": 177
+        },
+        {
+          "keyword": "281",
+          "count": 42
+        },
+        {
+          "keyword": "error",
+          "count": 42
+        },
+        {
+          "keyword": "106",
+          "count": 31
+        },
+        {
+          "keyword": "126",
+          "count": 31
+        },
+        {
+          "keyword": "443",
+          "count": 31
+        },
+        {
+          "keyword": "504",
+          "count": 11
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 76,
+          "percentage": 0.26480836236933797
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 119,
+          "percentage": 0.4146341463414634
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250807_172757",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 287,
+      "severity": "high",
+      "extraction_time": "2025-08-07T17:27:57.774732"
+    },
+    {
+      "total_errors": 75,
+      "error_frequency": 75,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 64
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 4
+        },
+        {
+          "keyword": "61602",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "524288",
+          "count": 1
+        },
+        {
+          "keyword": "819200",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.75,
+      "pattern_id": "node_exporter_log_20250807_172757",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 75,
+      "severity": "critical",
+      "extraction_time": "2025-08-07T17:27:57.798690"
+    },
+    {
+      "total_errors": 7,
+      "error_frequency": 7,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 7
+        },
+        {
+          "keyword": "error",
+          "count": 7
+        },
+        {
+          "keyword": "429",
+          "count": 6
+        },
+        {
+          "keyword": "4194304",
+          "count": 6
+        },
+        {
+          "keyword": "retry",
+          "count": 6
+        },
+        {
+          "keyword": "419",
+          "count": 6
+        },
+        {
+          "keyword": "3100",
+          "count": 6
+        },
+        {
+          "keyword": "10482",
+          "count": 1
+        },
+        {
+          "keyword": "1048530",
+          "count": 1
+        },
+        {
+          "keyword": "9320",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 6,
+          "percentage": 0.8571428571428571
+        }
+      ],
+      "error_rate": 0.07,
+      "pattern_id": "promptail_log_20250807_172757",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 7,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T17:27:57.799297"
+    },
+    {
+      "total_errors": 2,
+      "error_frequency": 2,
+      "top_keywords": [
+        {
+          "keyword": "500",
+          "count": 2
+        },
+        {
+          "keyword": "26650037",
+          "count": 2
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.02,
+      "pattern_id": "mysql_log_20250807_222542",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 2,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T22:25:42.352195"
+    },
+    {
+      "total_errors": 287,
+      "error_frequency": 287,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 287
+        },
+        {
+          "keyword": "failed",
+          "count": 253
+        },
+        {
+          "keyword": "305",
+          "count": 211
+        },
+        {
+          "keyword": "timeout",
+          "count": 177
+        },
+        {
+          "keyword": "error",
+          "count": 42
+        },
+        {
+          "keyword": "281",
+          "count": 42
+        },
+        {
+          "keyword": "443",
+          "count": 31
+        },
+        {
+          "keyword": "106",
+          "count": 31
+        },
+        {
+          "keyword": "126",
+          "count": 31
+        },
+        {
+          "keyword": "504",
+          "count": 11
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 76,
+          "percentage": 0.26480836236933797
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 119,
+          "percentage": 0.4146341463414634
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250807_222542",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 287,
+      "severity": "high",
+      "extraction_time": "2025-08-07T22:25:42.368113"
+    },
+    {
+      "total_errors": 7,
+      "error_frequency": 7,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 7
+        },
+        {
+          "keyword": "2025",
+          "count": 7
+        },
+        {
+          "keyword": "retry",
+          "count": 6
+        },
+        {
+          "keyword": "429",
+          "count": 6
+        },
+        {
+          "keyword": "4194304",
+          "count": 6
+        },
+        {
+          "keyword": "3100",
+          "count": 6
+        },
+        {
+          "keyword": "419",
+          "count": 6
+        },
+        {
+          "keyword": "1048530",
+          "count": 1
+        },
+        {
+          "keyword": "10482",
+          "count": 1
+        },
+        {
+          "keyword": "1048429",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 6,
+          "percentage": 0.8571428571428571
+        }
+      ],
+      "error_rate": 0.07,
+      "pattern_id": "promptail_log_20250807_222542",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 7,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T22:25:42.368709"
+    },
+    {
+      "total_errors": 45,
+      "error_frequency": 45,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 43
+        },
+        {
+          "keyword": "error",
+          "count": 21
+        },
+        {
+          "keyword": "502",
+          "count": 5
+        },
+        {
+          "keyword": "500",
+          "count": 4
+        },
+        {
+          "keyword": "504",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "1502",
+          "count": 2
+        },
+        {
+          "keyword": "26650037",
+          "count": 2
+        },
+        {
+          "keyword": "warning",
+          "count": 1
+        },
+        {
+          "keyword": "5000",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 7,
+          "percentage": 0.15555555555555556
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 21,
+          "percentage": 0.4666666666666667
+        }
+      ],
+      "error_rate": 0.45,
+      "pattern_id": "mysql_log_20250807_222819",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 45,
+      "severity": "high",
+      "extraction_time": "2025-08-07T22:28:19.918704"
+    },
+    {
+      "total_errors": 287,
+      "error_frequency": 287,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 287
+        },
+        {
+          "keyword": "failed",
+          "count": 253
+        },
+        {
+          "keyword": "305",
+          "count": 211
+        },
+        {
+          "keyword": "timeout",
+          "count": 177
+        },
+        {
+          "keyword": "error",
+          "count": 42
+        },
+        {
+          "keyword": "281",
+          "count": 42
+        },
+        {
+          "keyword": "443",
+          "count": 31
+        },
+        {
+          "keyword": "126",
+          "count": 31
+        },
+        {
+          "keyword": "106",
+          "count": 31
+        },
+        {
+          "keyword": "504",
+          "count": 11
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 76,
+          "percentage": 0.26480836236933797
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 119,
+          "percentage": 0.4146341463414634
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250807_222819",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 287,
+      "severity": "high",
+      "extraction_time": "2025-08-07T22:28:19.934973"
+    },
+    {
+      "total_errors": 213,
+      "error_frequency": 213,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 132
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "failure",
+          "count": 40
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250807_222819",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 213,
+      "severity": "critical",
+      "extraction_time": "2025-08-07T22:28:19.942661"
+    },
+    {
+      "total_errors": 7,
+      "error_frequency": 7,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 7
+        },
+        {
+          "keyword": "2025",
+          "count": 7
+        },
+        {
+          "keyword": "retry",
+          "count": 6
+        },
+        {
+          "keyword": "419",
+          "count": 6
+        },
+        {
+          "keyword": "4194304",
+          "count": 6
+        },
+        {
+          "keyword": "3100",
+          "count": 6
+        },
+        {
+          "keyword": "429",
+          "count": 6
+        },
+        {
+          "keyword": "10482",
+          "count": 1
+        },
+        {
+          "keyword": "1048530",
+          "count": 1
+        },
+        {
+          "keyword": "9320",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 6,
+          "percentage": 0.8571428571428571
+        }
+      ],
+      "error_rate": 0.07,
+      "pattern_id": "promptail_log_20250807_222819",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 7,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T22:28:19.943252"
+    },
+    {
+      "total_errors": 45,
+      "error_frequency": 45,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 43
+        },
+        {
+          "keyword": "error",
+          "count": 21
+        },
+        {
+          "keyword": "502",
+          "count": 5
+        },
+        {
+          "keyword": "500",
+          "count": 4
+        },
+        {
+          "keyword": "504",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "1502",
+          "count": 2
+        },
+        {
+          "keyword": "26650037",
+          "count": 2
+        },
+        {
+          "keyword": "warning",
+          "count": 1
+        },
+        {
+          "keyword": "5000",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 7,
+          "percentage": 0.15555555555555556
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 21,
+          "percentage": 0.4666666666666667
+        }
+      ],
+      "error_rate": 0.45,
+      "pattern_id": "mysql_log_20250807_225753",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 45,
+      "severity": "high",
+      "extraction_time": "2025-08-07T22:57:53.006761"
+    },
+    {
+      "total_errors": 287,
+      "error_frequency": 287,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 287
+        },
+        {
+          "keyword": "failed",
+          "count": 253
+        },
+        {
+          "keyword": "305",
+          "count": 211
+        },
+        {
+          "keyword": "timeout",
+          "count": 177
+        },
+        {
+          "keyword": "281",
+          "count": 42
+        },
+        {
+          "keyword": "error",
+          "count": 42
+        },
+        {
+          "keyword": "443",
+          "count": 31
+        },
+        {
+          "keyword": "106",
+          "count": 31
+        },
+        {
+          "keyword": "126",
+          "count": 31
+        },
+        {
+          "keyword": "504",
+          "count": 11
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 76,
+          "percentage": 0.26480836236933797
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 119,
+          "percentage": 0.4146341463414634
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250807_225753",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 287,
+      "severity": "high",
+      "extraction_time": "2025-08-07T22:57:53.079504"
+    },
+    {
+      "total_errors": 213,
+      "error_frequency": 213,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 132
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        },
+        {
+          "keyword": "failure",
+          "count": 40
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250807_225753",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 213,
+      "severity": "critical",
+      "extraction_time": "2025-08-07T22:57:53.120952"
+    },
+    {
+      "total_errors": 7,
+      "error_frequency": 7,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 7
+        },
+        {
+          "keyword": "2025",
+          "count": 7
+        },
+        {
+          "keyword": "retry",
+          "count": 6
+        },
+        {
+          "keyword": "419",
+          "count": 6
+        },
+        {
+          "keyword": "429",
+          "count": 6
+        },
+        {
+          "keyword": "4194304",
+          "count": 6
+        },
+        {
+          "keyword": "3100",
+          "count": 6
+        },
+        {
+          "keyword": "1048530",
+          "count": 1
+        },
+        {
+          "keyword": "10482",
+          "count": 1
+        },
+        {
+          "keyword": "9320",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 6,
+          "percentage": 0.8571428571428571
+        }
+      ],
+      "error_rate": 0.07,
+      "pattern_id": "promptail_log_20250807_225753",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 7,
+      "severity": "medium",
+      "extraction_time": "2025-08-07T22:57:53.121512"
+    },
+    {
+      "total_errors": 43,
+      "error_frequency": 43,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 43
+        },
+        {
+          "keyword": "error",
+          "count": 21
+        },
+        {
+          "keyword": "502",
+          "count": 5
+        },
+        {
+          "keyword": "504",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "500",
+          "count": 2
+        },
+        {
+          "keyword": "1502",
+          "count": 2
+        },
+        {
+          "keyword": "5000",
+          "count": 1
+        },
+        {
+          "keyword": "warning",
+          "count": 1
+        },
+        {
+          "keyword": "192",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 7,
+          "percentage": 0.16279069767441862
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 21,
+          "percentage": 0.4883720930232558
+        }
+      ],
+      "error_rate": 0.43,
+      "pattern_id": "mysql_log_20250810_163719",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 43,
+      "severity": "high",
+      "extraction_time": "2025-08-10T16:37:19.852599"
+    },
+    {
+      "total_errors": 27,
+      "error_frequency": 27,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 27
+        },
+        {
+          "keyword": "504",
+          "count": 12
+        },
+        {
+          "keyword": "502",
+          "count": 6
+        },
+        {
+          "keyword": "503",
+          "count": 5
+        },
+        {
+          "keyword": "500",
+          "count": 4
+        },
+        {
+          "keyword": "318",
+          "count": 4
+        },
+        {
+          "keyword": "107",
+          "count": 4
+        },
+        {
+          "keyword": "185",
+          "count": 4
+        },
+        {
+          "keyword": "334",
+          "count": 3
+        },
+        {
+          "keyword": "132",
+          "count": 2
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=table.go:NUM msg=\"handing over indexes to shipper ",
+          "frequency": 4,
+          "percentage": 0.14814814814814814
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=table.go:NUM msg=\"finished handing over table inde",
+          "frequency": 3,
+          "percentage": 0.1111111111111111
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=index_set.go:NUM msg=\"finished uploading table ind",
+          "frequency": 4,
+          "percentage": 0.14814814814814814
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=index_set.go:NUM msg=\"uploading table index_NUM\"",
+          "frequency": 4,
+          "percentage": 0.14814814814814814
+        },
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=index_set.go:NUM msg=\"cleaning up unwanted indexes",
+          "frequency": 4,
+          "percentage": 0.14814814814814814
+        }
+      ],
+      "error_rate": 0.27,
+      "pattern_id": "loki_log_20250810_163719",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 27,
+      "severity": "high",
+      "extraction_time": "2025-08-10T16:37:19.854073"
+    },
+    {
+      "total_errors": 308,
+      "error_frequency": 308,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 188
+        },
+        {
+          "keyword": "failure",
+          "count": 68
+        },
+        {
+          "keyword": "127",
+          "count": 54
+        },
+        {
+          "keyword": "2025",
+          "count": 54
+        },
+        {
+          "keyword": "443",
+          "count": 54
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250810_163719",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 308,
+      "severity": "critical",
+      "extraction_time": "2025-08-10T16:37:19.889012"
+    },
+    {
+      "total_errors": 89,
+      "error_frequency": 89,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 74
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 5
+        },
+        {
+          "keyword": "294950",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "502",
+          "count": 1
+        },
+        {
+          "keyword": "1502",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.89,
+      "pattern_id": "node_exporter_log_20250810_163719",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 89,
+      "severity": "critical",
+      "extraction_time": "2025-08-10T16:37:19.891769"
+    },
+    {
+      "total_errors": 14,
+      "error_frequency": 14,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 14
+        },
+        {
+          "keyword": "4194304",
+          "count": 11
+        },
+        {
+          "keyword": "429",
+          "count": 11
+        },
+        {
+          "keyword": "retry",
+          "count": 11
+        },
+        {
+          "keyword": "error",
+          "count": 11
+        },
+        {
+          "keyword": "3100",
+          "count": 11
+        },
+        {
+          "keyword": "419",
+          "count": 11
+        },
+        {
+          "keyword": "504",
+          "count": 2
+        },
+        {
+          "keyword": "145",
+          "count": 2
+        },
+        {
+          "keyword": "503",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 11,
+          "percentage": 0.7857142857142857
+        }
+      ],
+      "error_rate": 0.14,
+      "pattern_id": "promptail_log_20250810_163719",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 14,
+      "severity": "high",
+      "extraction_time": "2025-08-10T16:37:19.893592"
+    },
+    {
+      "total_errors": 42,
+      "error_frequency": 42,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 42
+        },
+        {
+          "keyword": "error",
+          "count": 22
+        },
+        {
+          "keyword": "502",
+          "count": 4
+        },
+        {
+          "keyword": "504",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "1502",
+          "count": 2
+        },
+        {
+          "keyword": "106",
+          "count": 1
+        },
+        {
+          "keyword": "192",
+          "count": 1
+        },
+        {
+          "keyword": "146",
+          "count": 1
+        },
+        {
+          "keyword": "2769502",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 7,
+          "percentage": 0.16666666666666666
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 22,
+          "percentage": 0.5238095238095238
+        }
+      ],
+      "error_rate": 0.42,
+      "pattern_id": "mysql_log_20250812_223508",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 42,
+      "severity": "high",
+      "extraction_time": "2025-08-12T22:35:08.931995"
+    },
+    {
+      "total_errors": 139,
+      "error_frequency": 139,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 139
+        },
+        {
+          "keyword": "failed",
+          "count": 121
+        },
+        {
+          "keyword": "305",
+          "count": 101
+        },
+        {
+          "keyword": "timeout",
+          "count": 99
+        },
+        {
+          "keyword": "443",
+          "count": 22
+        },
+        {
+          "keyword": "126",
+          "count": 22
+        },
+        {
+          "keyword": "106",
+          "count": 22
+        },
+        {
+          "keyword": "error",
+          "count": 20
+        },
+        {
+          "keyword": "281",
+          "count": 20
+        },
+        {
+          "keyword": "192",
+          "count": 18
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 77,
+          "percentage": 0.5539568345323741
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250812_223508",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 139,
+      "severity": "critical",
+      "extraction_time": "2025-08-12T22:35:08.939965"
+    },
+    {
+      "total_errors": 311,
+      "error_frequency": 311,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 192
+        },
+        {
+          "keyword": "failure",
+          "count": 70
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250812_223508",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 311,
+      "severity": "critical",
+      "extraction_time": "2025-08-12T22:35:08.950937"
+    },
+    {
+      "total_errors": 89,
+      "error_frequency": 89,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 74
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 5
+        },
+        {
+          "keyword": "294950",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "502",
+          "count": 1
+        },
+        {
+          "keyword": "1502",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.89,
+      "pattern_id": "node_exporter_log_20250812_223508",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 89,
+      "severity": "critical",
+      "extraction_time": "2025-08-12T22:35:08.952944"
+    },
+    {
+      "total_errors": 16,
+      "error_frequency": 16,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 16
+        },
+        {
+          "keyword": "error",
+          "count": 13
+        },
+        {
+          "keyword": "retry",
+          "count": 12
+        },
+        {
+          "keyword": "419",
+          "count": 12
+        },
+        {
+          "keyword": "3100",
+          "count": 12
+        },
+        {
+          "keyword": "4194304",
+          "count": 11
+        },
+        {
+          "keyword": "429",
+          "count": 11
+        },
+        {
+          "keyword": "145",
+          "count": 2
+        },
+        {
+          "keyword": "504",
+          "count": 2
+        },
+        {
+          "keyword": "168",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 11,
+          "percentage": 0.6875
+        }
+      ],
+      "error_rate": 0.16,
+      "pattern_id": "promptail_log_20250812_223508",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 16,
+      "severity": "high",
+      "extraction_time": "2025-08-12T22:35:08.953913"
+    },
+    {
+      "total_errors": 42,
+      "error_frequency": 42,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 42
+        },
+        {
+          "keyword": "error",
+          "count": 22
+        },
+        {
+          "keyword": "502",
+          "count": 4
+        },
+        {
+          "keyword": "504",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "1502",
+          "count": 2
+        },
+        {
+          "keyword": "192",
+          "count": 1
+        },
+        {
+          "keyword": "106",
+          "count": 1
+        },
+        {
+          "keyword": "146",
+          "count": 1
+        },
+        {
+          "keyword": "2769502",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 7,
+          "percentage": 0.16666666666666666
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 22,
+          "percentage": 0.5238095238095238
+        }
+      ],
+      "error_rate": 0.42,
+      "pattern_id": "mysql_log_20250813_001240",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 42,
+      "severity": "high",
+      "extraction_time": "2025-08-13T00:12:40.293691"
+    },
+    {
+      "total_errors": 139,
+      "error_frequency": 139,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 139
+        },
+        {
+          "keyword": "failed",
+          "count": 121
+        },
+        {
+          "keyword": "305",
+          "count": 101
+        },
+        {
+          "keyword": "timeout",
+          "count": 99
+        },
+        {
+          "keyword": "106",
+          "count": 22
+        },
+        {
+          "keyword": "126",
+          "count": 22
+        },
+        {
+          "keyword": "443",
+          "count": 22
+        },
+        {
+          "keyword": "error",
+          "count": 20
+        },
+        {
+          "keyword": "281",
+          "count": 20
+        },
+        {
+          "keyword": "192",
+          "count": 18
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 77,
+          "percentage": 0.5539568345323741
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250813_001240",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 139,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T00:12:40.318753"
+    },
+    {
+      "total_errors": 311,
+      "error_frequency": 311,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 192
+        },
+        {
+          "keyword": "failure",
+          "count": 70
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250813_001240",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 311,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T00:12:40.346796"
+    },
+    {
+      "total_errors": 89,
+      "error_frequency": 89,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 74
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 5
+        },
+        {
+          "keyword": "294950",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "1502",
+          "count": 1
+        },
+        {
+          "keyword": "502",
+          "count": 1
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.89,
+      "pattern_id": "node_exporter_log_20250813_001240",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 89,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T00:12:40.349355"
+    },
+    {
+      "total_errors": 16,
+      "error_frequency": 16,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 16
+        },
+        {
+          "keyword": "error",
+          "count": 13
+        },
+        {
+          "keyword": "419",
+          "count": 12
+        },
+        {
+          "keyword": "retry",
+          "count": 12
+        },
+        {
+          "keyword": "3100",
+          "count": 12
+        },
+        {
+          "keyword": "429",
+          "count": 11
+        },
+        {
+          "keyword": "4194304",
+          "count": 11
+        },
+        {
+          "keyword": "145",
+          "count": 2
+        },
+        {
+          "keyword": "504",
+          "count": 2
+        },
+        {
+          "keyword": "168",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 11,
+          "percentage": 0.6875
+        }
+      ],
+      "error_rate": 0.16,
+      "pattern_id": "promptail_log_20250813_001240",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 16,
+      "severity": "high",
+      "extraction_time": "2025-08-13T00:12:40.350432"
+    },
+    {
+      "total_errors": 49,
+      "error_frequency": 49,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 49
+        },
+        {
+          "keyword": "error",
+          "count": 27
+        },
+        {
+          "keyword": "502",
+          "count": 5
+        },
+        {
+          "keyword": "504",
+          "count": 5
+        },
+        {
+          "keyword": "1502",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "106",
+          "count": 1
+        },
+        {
+          "keyword": "146",
+          "count": 1
+        },
+        {
+          "keyword": "192",
+          "count": 1
+        },
+        {
+          "keyword": "2769502",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 27,
+          "percentage": 0.5510204081632653
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 6,
+          "percentage": 0.12244897959183673
+        }
+      ],
+      "error_rate": 0.49,
+      "pattern_id": "mysql_log_20250813_020608",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 49,
+      "severity": "high",
+      "extraction_time": "2025-08-13T02:06:08.059222"
+    },
+    {
+      "total_errors": 139,
+      "error_frequency": 139,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 139
+        },
+        {
+          "keyword": "failed",
+          "count": 121
+        },
+        {
+          "keyword": "305",
+          "count": 101
+        },
+        {
+          "keyword": "timeout",
+          "count": 99
+        },
+        {
+          "keyword": "106",
+          "count": 22
+        },
+        {
+          "keyword": "126",
+          "count": 22
+        },
+        {
+          "keyword": "443",
+          "count": 22
+        },
+        {
+          "keyword": "281",
+          "count": 20
+        },
+        {
+          "keyword": "error",
+          "count": 20
+        },
+        {
+          "keyword": "192",
+          "count": 18
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 77,
+          "percentage": 0.5539568345323741
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250813_020608",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 139,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:06:08.066244"
+    },
+    {
+      "total_errors": 311,
+      "error_frequency": 311,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 192
+        },
+        {
+          "keyword": "failure",
+          "count": 70
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250813_020608",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 311,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:06:08.075726"
+    },
+    {
+      "total_errors": 89,
+      "error_frequency": 89,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 74
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 5
+        },
+        {
+          "keyword": "294950",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "1502",
+          "count": 1
+        },
+        {
+          "keyword": "502",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.89,
+      "pattern_id": "node_exporter_log_20250813_020608",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 89,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:06:08.077609"
+    },
+    {
+      "total_errors": 16,
+      "error_frequency": 16,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 16
+        },
+        {
+          "keyword": "error",
+          "count": 13
+        },
+        {
+          "keyword": "3100",
+          "count": 12
+        },
+        {
+          "keyword": "retry",
+          "count": 12
+        },
+        {
+          "keyword": "419",
+          "count": 12
+        },
+        {
+          "keyword": "4194304",
+          "count": 11
+        },
+        {
+          "keyword": "429",
+          "count": 11
+        },
+        {
+          "keyword": "145",
+          "count": 2
+        },
+        {
+          "keyword": "504",
+          "count": 2
+        },
+        {
+          "keyword": "168",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 11,
+          "percentage": 0.6875
+        }
+      ],
+      "error_rate": 0.16,
+      "pattern_id": "promptail_log_20250813_020608",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 16,
+      "severity": "high",
+      "extraction_time": "2025-08-13T02:06:08.078413"
+    },
+    {
+      "total_errors": 49,
+      "error_frequency": 49,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 49
+        },
+        {
+          "keyword": "error",
+          "count": 27
+        },
+        {
+          "keyword": "502",
+          "count": 5
+        },
+        {
+          "keyword": "504",
+          "count": 5
+        },
+        {
+          "keyword": "1502",
+          "count": 3
+        },
+        {
+          "keyword": "503",
+          "count": 3
+        },
+        {
+          "keyword": "146",
+          "count": 1
+        },
+        {
+          "keyword": "106",
+          "count": 1
+        },
+        {
+          "keyword": "192",
+          "count": 1
+        },
+        {
+          "keyword": "2769502",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Aborted connection NUM to db: 'unconnected' user: 'root' hos",
+          "frequency": 27,
+          "percentage": 0.5510204081632653
+        },
+        {
+          "pattern": "NUM-NUM-NUMTNUM:NUM:NUM.NUMZ NUM [Note] Access denied for user 'root'@'localhost' (using password: Y",
+          "frequency": 6,
+          "percentage": 0.12244897959183673
+        }
+      ],
+      "error_rate": 0.49,
+      "pattern_id": "mysql_log_20250813_020927",
+      "pattern_type": "log_anomaly",
+      "service": "mysql",
+      "error_count": 49,
+      "severity": "high",
+      "extraction_time": "2025-08-13T02:09:27.822382"
+    },
+    {
+      "total_errors": 139,
+      "error_frequency": 139,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 139
+        },
+        {
+          "keyword": "failed",
+          "count": 121
+        },
+        {
+          "keyword": "305",
+          "count": 101
+        },
+        {
+          "keyword": "timeout",
+          "count": 99
+        },
+        {
+          "keyword": "443",
+          "count": 22
+        },
+        {
+          "keyword": "106",
+          "count": 22
+        },
+        {
+          "keyword": "126",
+          "count": 22
+        },
+        {
+          "keyword": "error",
+          "count": 20
+        },
+        {
+          "keyword": "281",
+          "count": 20
+        },
+        {
+          "keyword": "192",
+          "count": 18
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=info ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=reporter.go:NUM msg=\"failed to send usage report\" ",
+          "frequency": 77,
+          "percentage": 0.5539568345323741
+        }
+      ],
+      "error_rate": 1.0,
+      "pattern_id": "loki_log_20250813_020927",
+      "pattern_type": "log_anomaly",
+      "service": "loki",
+      "error_count": 139,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:09:27.828393"
+    },
+    {
+      "total_errors": 311,
+      "error_frequency": 311,
+      "top_keywords": [
+        {
+          "keyword": "failed",
+          "count": 192
+        },
+        {
+          "keyword": "failure",
+          "count": 70
+        },
+        {
+          "keyword": "warning",
+          "count": 52
+        },
+        {
+          "keyword": "error",
+          "count": 52
+        },
+        {
+          "keyword": "40001",
+          "count": 52
+        },
+        {
+          "keyword": "2025",
+          "count": 52
+        },
+        {
+          "keyword": "214",
+          "count": 52
+        },
+        {
+          "keyword": "127",
+          "count": 52
+        },
+        {
+          "keyword": "1011",
+          "count": 52
+        },
+        {
+          "keyword": "443",
+          "count": 52
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 1.0,
+      "pattern_id": "system_log_20250813_020927",
+      "pattern_type": "log_anomaly",
+      "service": "system",
+      "error_count": 311,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:09:27.836926"
+    },
+    {
+      "total_errors": 89,
+      "error_frequency": 89,
+      "top_keywords": [
+        {
+          "keyword": "error",
+          "count": 74
+        },
+        {
+          "keyword": "1000",
+          "count": 24
+        },
+        {
+          "keyword": "500",
+          "count": 5
+        },
+        {
+          "keyword": "294950",
+          "count": 2
+        },
+        {
+          "keyword": "1500",
+          "count": 2
+        },
+        {
+          "keyword": "502",
+          "count": 1
+        },
+        {
+          "keyword": "1502",
+          "count": 1
+        },
+        {
+          "keyword": "00000001",
+          "count": 1
+        },
+        {
+          "keyword": "00000000000000000001",
+          "count": 1
+        },
+        {
+          "keyword": "0000",
+          "count": 1
+        }
+      ],
+      "common_patterns": [],
+      "error_rate": 0.89,
+      "pattern_id": "node_exporter_log_20250813_020927",
+      "pattern_type": "log_anomaly",
+      "service": "node_exporter",
+      "error_count": 89,
+      "severity": "critical",
+      "extraction_time": "2025-08-13T02:09:27.838707"
+    },
+    {
+      "total_errors": 16,
+      "error_frequency": 16,
+      "top_keywords": [
+        {
+          "keyword": "2025",
+          "count": 16
+        },
+        {
+          "keyword": "error",
+          "count": 13
+        },
+        {
+          "keyword": "419",
+          "count": 12
+        },
+        {
+          "keyword": "3100",
+          "count": 12
+        },
+        {
+          "keyword": "retry",
+          "count": 12
+        },
+        {
+          "keyword": "429",
+          "count": 11
+        },
+        {
+          "keyword": "4194304",
+          "count": 11
+        },
+        {
+          "keyword": "145",
+          "count": 2
+        },
+        {
+          "keyword": "504",
+          "count": 2
+        },
+        {
+          "keyword": "168",
+          "count": 1
+        }
+      ],
+      "common_patterns": [
+        {
+          "pattern": "level=warn ts=NUM-NUM-NUMTNUM:NUM:NUM.NUMZ caller=client.go:NUM component=client host=localhost:NUM ",
+          "frequency": 11,
+          "percentage": 0.6875
+        }
+      ],
+      "error_rate": 0.16,
+      "pattern_id": "promptail_log_20250813_020927",
+      "pattern_type": "log_anomaly",
+      "service": "promptail",
+      "error_count": 16,
+      "severity": "high",
+      "extraction_time": "2025-08-13T02:09:27.839593"
+    }
+  ],
+  "composite_patterns": [
+    {
+      "pattern_id": "system_composite_20250807_222819",
+      "pattern_name": "system综合异常模式",
+      "pattern_type": "composite_anomaly",
+      "service": "system",
+      "extraction_time": "2025-08-07T22:28:19.944727",
+      "metrics": {
+        "cpu": {
+          "mean": 80.4,
+          "std": 18.1,
+          "min": 62.3,
+          "max": 98.5,
+          "median": 80.4,
+          "samples": 2
+        },
+        "memory": {
+          "mean": 47.3,
+          "std": 9.8,
+          "min": 37.5,
+          "max": 57.1,
+          "median": 47.3,
+          "samples": 2
+        },
+        "thresholds": {
+          "cpu": 80,
+          "memory": 75,
+          "disk_usage": 29.6,
+          "network_connections": 33.0
+        }
+      },
+      "logs": {
+        "keywords": [
+          {
+            "keyword": "failed",
+            "count": 132
+          },
+          {
+            "keyword": "443",
+            "count": 52
+          },
+          {
+            "keyword": "error",
+            "count": 52
+          },
+          {
+            "keyword": "127",
+            "count": 52
+          },
+          {
+            "keyword": "214",
+            "count": 52
+          },
+          {
+            "keyword": "2025",
+            "count": 52
+          },
+          {
+            "keyword": "40001",
+            "count": 52
+          },
+          {
+            "keyword": "1011",
+            "count": 52
+          },
+          {
+            "keyword": "warning",
+            "count": 52
+          },
+          {
+            "keyword": "failure",
+            "count": 40
+          }
+        ],
+        "patterns": [],
+        "frequency": 213,
+        "error_rate": 1.0
+      },
+      "conditions": {
+        "logical_operator": "and",
+        "rules": [
+          {
+            "metric": "cpu_percent",
+            "operator": ">",
+            "value": 80,
+            "weight": 0.6
+          },
+          {
+            "metric": "memory_percent",
+            "operator": ">",
+            "value": 75,
+            "weight": 0.6
+          },
+          {
+            "metric": "disk_usage_percent",
+            "operator": ">",
+            "value": 29.6,
+            "weight": 0.6
+          },
+          {
+            "metric": "network_connections_percent",
+            "operator": ">",
+            "value": 33.0,
+            "weight": 0.6
+          },
+          {
+            "metric": "log_keywords",
+            "operator": "contains",
+            "value": "failed",
+            "weight": 0.4
+          }
+        ]
+      },
+      "severity": "critical",
+      "confidence": 0.6666666666666666
+    },
+    {
+      "pattern_id": "system_composite_20250807_225753",
+      "pattern_name": "system综合异常模式",
+      "pattern_type": "composite_anomaly",
+      "service": "system",
+      "extraction_time": "2025-08-07T22:57:53.122933",
+      "metrics": {
+        "cpu": {
+          "mean": 80.4,
+          "std": 18.1,
+          "min": 62.3,
+          "max": 98.5,
+          "median": 80.4,
+          "samples": 2
+        },
+        "memory": {
+          "mean": 47.3,
+          "std": 9.8,
+          "min": 37.5,
+          "max": 57.1,
+          "median": 47.3,
+          "samples": 2
+        },
+        "thresholds": {
+          "cpu": 80,
+          "memory": 75,
+          "disk_usage": 29.6,
+          "network_connections": 33.0
+        }
+      },
+      "logs": {
+        "keywords": [
+          {
+            "keyword": "failed",
+            "count": 132
+          },
+          {
+            "keyword": "1011",
+            "count": 52
+          },
+          {
+            "keyword": "warning",
+            "count": 52
+          },
+          {
+            "keyword": "40001",
+            "count": 52
+          },
+          {
+            "keyword": "443",
+            "count": 52
+          },
+          {
+            "keyword": "127",
+            "count": 52
+          },
+          {
+            "keyword": "214",
+            "count": 52
+          },
+          {
+            "keyword": "error",
+            "count": 52
+          },
+          {
+            "keyword": "2025",
+            "count": 52
+          },
+          {
+            "keyword": "failure",
+            "count": 40
+          }
+        ],
+        "patterns": [],
+        "frequency": 213,
+        "error_rate": 1.0
+      },
+      "conditions": {
+        "logical_operator": "and",
+        "rules": [
+          {
+            "metric": "cpu_percent",
+            "operator": ">",
+            "value": 80,
+            "weight": 0.6
+          },
+          {
+            "metric": "memory_percent",
+            "operator": ">",
+            "value": 75,
+            "weight": 0.6
+          },
+          {
+            "metric": "disk_usage_percent",
+            "operator": ">",
+            "value": 29.6,
+            "weight": 0.6
+          },
+          {
+            "metric": "network_connections_percent",
+            "operator": ">",
+            "value": 33.0,
+            "weight": 0.6
+          },
+          {
+            "metric": "log_keywords",
+            "operator": "contains",
+            "value": "failed",
+            "weight": 0.4
+          }
+        ]
+      },
+      "severity": "critical",
+      "confidence": 0.6666666666666666
+    }
+  ],
+  "summary": {
+    "total_patterns": 57,
+    "metric_patterns_count": 15,
+    "log_patterns_count": 40,
+    "composite_patterns_count": 2,
+    "services_analyzed": [
+      "system",
+      "nginx",
+      "promptail",
+      "mysql",
+      "mysqld",
+      "node_exporter",
+      "python3",
+      "loki"
+    ]
+  }
+}
